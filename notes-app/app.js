@@ -10,7 +10,8 @@
 // use npm init or npm install to load external dependencies into your project
 const mychalk = require('chalk')
 
-console.log(mychalk.red('Success'))
+console.log(mychalk.green('Success'))
+console.log('cool thing')
 
 
 
