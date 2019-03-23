@@ -1,12 +1,15 @@
 
+const validator = require('validator')
+console.log(validator.isEmail('nikhilchaudhary2903@gmail.com'))
+console.log(validator.isURL('nikhilchaudhary2903@/gmail.com'))
+
 // const fs = require('fs')
 // fs.writeFileSync('notes.txt','This is a sample text file');
+// const shareThis = require('./utils.js') // ./ goes to root folder ie notes app
+// console.log(shareThis(5.09,6));
 
 // fs.appendFileSync('notes.txt',"\n this has been appended");
 const getNotes = require('./notes.js')
-const shareThis = require('./utils.js') // ./ goes to root folder ie notes app
-console.log(shareThis(5.09,6));
-
 // time to get notes
 
 console.log(getNotes());
